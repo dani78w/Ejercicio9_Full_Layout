@@ -14,7 +14,8 @@
     <string name="hangouts">Hangouts</string>
     <string name="gmail">Gmail</string>
     <string name="just_for_you">Just for you</string>
-    <string name="_12_min_to_tacoliocus">12 min to Tacoliocus</string>
+    <string name="_12_min">12 min </string>
+    <string name="to_tacoliocus">to Tacoliocus</string>
     <string name="maps_route">Maps Route</string>
     <string name="thomas_williams">Thomas Williams</string>
     <string name="missed_call">Missed Call</string>
