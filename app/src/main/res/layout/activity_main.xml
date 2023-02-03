@@ -78,9 +78,9 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="sans-serif-black"
                         android:text="@string/good_morning_nlight_trafic_ahead"
-                        android:textSize="40dp" />
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
