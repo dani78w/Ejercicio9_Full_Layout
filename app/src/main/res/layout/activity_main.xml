@@ -50,7 +50,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="3"
                         android:contentDescription="SunIcon"
-                        android:padding="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:scaleType="fitEnd"
                         app:srcCompat="@drawable/sun" />/>
 
@@ -61,7 +62,9 @@
                         android:layout_weight="3"
 
                         android:gravity="center"
-                        android:text="Cloudy 72º" />
+                        android:text="Cloudy 72º"
+                        android:textAlignment="textStart"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -77,16 +80,16 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
-                        android:fontFamily="sans-serif-black"
                         android:text="@string/good_morning_nlight_trafic_ahead"
-                        android:textSize="40dp" />
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="127dp"
-                    android:paddingStart="15dp"
-                    android:paddingEnd="15dp">
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp">
 
                     <LinearLayout
                         android:id="@+id/mapsButton"
@@ -370,7 +373,7 @@
                 android:id="@+id/voiceIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:layout_marginStart="35dp"
                 android:layout_weight="12"
                 android:clickable="true"
                 android:scaleType="fitStart"
@@ -380,7 +383,7 @@
                 android:id="@+id/arrowIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="25dp"
+                android:layout_marginEnd="35dp"
                 android:layout_weight="5"
                 android:backgroundTint="#0BFFAA"
                 android:scaleType="fitEnd"
