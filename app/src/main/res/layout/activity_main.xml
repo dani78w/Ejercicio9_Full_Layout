@@ -50,7 +50,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="3"
                         android:contentDescription="SunIcon"
-                        android:padding="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:scaleType="fitEnd"
                         app:srcCompat="@drawable/sun" />/>
 
@@ -62,6 +63,7 @@
 
                         android:gravity="center"
                         android:text="Cloudy 72º"
+                        android:textAlignment="textStart"
                         android:textStyle="bold" />
 
                 </LinearLayout>
