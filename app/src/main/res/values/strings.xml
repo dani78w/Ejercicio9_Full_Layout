@@ -9,4 +9,15 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="good_morning_nlight_trafic_ahead">Good morning! \nLight trafic ahead.</string>
+    <string name="maps">Maps</string>
+    <string name="hangouts">Hangouts</string>
+    <string name="gmail">Gmail</string>
+    <string name="just_for_you">Just for you</string>
+    <string name="_12_min_to_tacoliocus">12 min to Tacoliocus</string>
+    <string name="maps_route">Maps Route</string>
+    <string name="thomas_williams">Thomas Williams</string>
+    <string name="missed_call">Missed Call</string>
+    <string name="litle_manila">Litle Manila</string>
+    <string name="new_email">New email</string>
 </resources>
