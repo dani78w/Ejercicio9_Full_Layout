@@ -34,16 +34,17 @@
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="2" />
+                    android:layout_weight="3" />
 
                 <ImageView
                     android:id="@+id/sunIcon"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="3"
+                    android:contentDescription="SunIcon"
+                    android:padding="10dp"
                     android:scaleType="fitEnd"
-                    app:srcCompat="@drawable/sun"
-                    android:contentDescription="SunIcon" />/>
+                    app:srcCompat="@drawable/sun" />/>
 
                 <TextView
                     android:id="@+id/textView6"
