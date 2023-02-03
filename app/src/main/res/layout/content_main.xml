@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/principal2"
     android:layout_height="match_parent"
     android:backgroundTint="#FFFFFF"
     android:translationZ="30dp"
@@ -19,44 +23,49 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="47dp"
-                android:layout_margin="15dp">
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
 
                 <ImageView
                     android:id="@+id/googleAssistantIcon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
+                    android:layout_weight="1"
                     android:scaleType="fitStart"
                     app:srcCompat="@drawable/google_assistant_logo" />
 
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="2" />
+                    android:layout_weight="1" />
 
                 <ImageView
                     android:id="@+id/sunIcon"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="3"
+                    android:padding="5sp"
+                    android:layout_weight="1"
                     android:scaleType="fitEnd"
-                    app:srcCompat="@drawable/sun" />
+                    app:srcCompat="@drawable/el_timepo" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="3"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:text="Cloudy 72º"
-
-                    android:textAlignment="textStart" />
+                    android:textSize="16sp"
+                    android:textAlignment="textStart"
+                    tools:ignore="RtlCompat" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="105dp"
+                android:layout_height="90dp"
                 android:layout_margin="15dp"
                 android:orientation="vertical">
 
@@ -66,9 +75,9 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:fontFamily="sans-serif-black"
+                    android:fontFamily="@font/SamsungOne-400"
                     android:text="@string/good_morning_nlight_trafic_ahead"
-                    android:textSize="40dp" />
+                    android:textSize="30dp" />
             </LinearLayout>
 
             <LinearLayout
