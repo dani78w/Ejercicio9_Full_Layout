@@ -1,24 +1,20 @@
 <resources>
     <string name="app_name">Ejercicio9_Full_Layout</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="good_morning_nlight_trafic_ahead">Good morning! \nLight trafic ahead.</string>
+    <string name="good_morning_light_traffic_ahead">Good morning! \nLight traffic ahead.</string>
     <string name="maps">Maps</string>
     <string name="hangouts">Hangouts</string>
     <string name="gmail">Gmail</string>
     <string name="just_for_you">Just for you</string>
-    <string name="_12_min">12 min </string>
-    <string name="to_tacoliocus">to Tacoliocus</string>
+    <string name="time_12_min">12 min </string>
+    <string name="to_tacolicious">to Tacolicious</string>
     <string name="maps_route">Maps Route</string>
     <string name="thomas_williams">Thomas Williams</string>
     <string name="missed_call">Missed Call</string>
-    <string name="litle_manila">Litle Manila</string>
+    <string name="little_manila">Little Manila</string>
     <string name="new_email">New email</string>
+    <string name="google_assistant">Google Assistant</string>
+    <string name="time_status">Time status</string>
+    <string name="current_time">Cloudy 72º</string>
+    <string name="more">More</string>
 </resources>
